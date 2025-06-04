@@ -1,3 +1,57 @@
+@font-face {
+    font-family: Inter;
+    src: url(/fonts/Inter/Inter-VariableFont_opsz\,wght.ttf);
+}
+@font-face {
+    font-family: yeseva;
+    src: url(/fonts/Yeseva_One/YesevaOne-Regular.ttf);
+}
+@font-face {
+    font-family: inter i;
+    src: url(/fonts/Inter/Inter-Italic-VariableFont_opsz\,wght.ttf);
+}
 body {
     background-color: #F6F2E6;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 1rem 2rem;
+    border-bottom: 1px solid #D13536;
+}
+
+nav ul {
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav img {
+    height: 25px;
+}
+
+nav li a {
+    font-family: Inter;
+    color: #D13536;
+    text-decoration: none;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+img {
+    object-fit: cover;
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+footer {
+    padding: 1rem;
+    border-top: 1px solid #D13536;
 }

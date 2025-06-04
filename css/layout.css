@@ -1,3 +1,57 @@
-@media (width>=800px) {
-    
+main {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
+
+.grid_2-3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1 fr 1fr;
+}
+
+.foto {
+    order: 2;
+}
+
+.text {
+    order: 1;
+}
+
+@media (min-width: 800px) {
+    .grid_3-2 {
+        display: grid;
+        grid-template-columns: 3fr 2fr;
+    }
+
+    .grid_2-3 {
+        display: grid;
+        grid-template-columns: 2fr 3fr;
+    }
+    .grid_2-3, .grid_3-2 {
+        padding-left: 3rem;
+        padding-right: 3rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        gap: 4cm;
+    }
+    
+    .foto {
+        order: 1;
+    }
+    .text {
+        order: 2;
+    }
+    main {
+        margin-left: 5rem;
+        margin-right: 5rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .ani {
+        padding: 3rem;
+    }
+}
+

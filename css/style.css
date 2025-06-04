@@ -1,0 +1,19 @@
+h1 {
+    color: #D13536;
+    font-family: yeseva;
+    font-size: xx-large;
+}
+
+h2 {
+    color: #D13536;
+    font-family: inter i;
+}
+
+p {
+    font-family: inter;
+    line-height: 2rem;
+}
+
+footer {
+    color: #D13536;
+}
