@@ -1,8 +1,5 @@
 main {
-    margin-left: 2rem;
-    margin-right: 2rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin: 2rem;
 }
 
 .grid_2-3 {
@@ -19,7 +16,7 @@ main {
     order: 1;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 1000px) {
     .grid_3-2 {
         display: grid;
         grid-template-columns: 3fr 2fr;
@@ -49,9 +46,19 @@ main {
         margin-top: 2rem;
         margin-bottom: 2rem;
     }
-
     .ani {
         padding: 3rem;
+    }
+
+    .ommig {
+    padding-left: 4rem;
+    padding-top: 4rem;
+    padding-right: 3rem;
+    }
+
+    .text {
+    padding-right: 5rem;
+    padding-top: 3rem;
     }
 }
 

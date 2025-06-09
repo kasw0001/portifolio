@@ -59,23 +59,33 @@ footer {
 .grid_2-3, .grid_3-2 {
     background-color: #ebe6d7;
     padding: 2rem;
-    margin-bottom: 2rem;
+    margin: 2rem auto;
     border-radius: 3rem;
 }
 
 .ommig {
-    padding-left: 2rem;
+    /* padding-left: 4rem;
+    padding-top: 4rem;
+    padding-right: 3rem; */
+    text-align: justify;
 }
 .text {
-    padding-right: 2rem;
+    /* padding-right: 5rem;
+    padding-top: 3rem; */
+    text-align: justify;
 }
 
 /* PROJEKTER */ 
+.projekt {
+    padding-left: 1rem;
+}
+
 dialog {
     max-width: 800px;
     width: 90%;
-    padding: 1rem;
-    padding-left: 2rem;
+    padding-top: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
     border: none;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0,0,0,0.2);
@@ -86,6 +96,9 @@ dialog::backdrop {
 dialog p {
     max-width: 20cm;
     padding: 1.5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    text-align: justify;
 }
 .site {
     font-family: inter;
