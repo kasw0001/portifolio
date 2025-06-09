@@ -56,14 +56,83 @@ footer {
     border-top: 1px solid #D13536;
 }
 
+.grid_2-3, .grid_3-2 {
+    background-color: #ebe6d7;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 3rem;
+}
+
+.ommig {
+    padding-left: 2rem;
+}
+.text {
+    padding-right: 2rem;
+}
+
+/* PROJEKTER */ 
 dialog {
-    max-width: 700px;
+    max-width: 800px;
     width: 90%;
     padding: 1rem;
+    padding-left: 2rem;
     border: none;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0,0,0,0.2);
 }
 dialog::backdrop {
     backdrop-filter: blur(3px);
+}
+dialog p {
+    max-width: 20cm;
+    padding: 1.5rem;
+}
+.site {
+    font-family: inter;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    display: inline-block; 
+    padding: 6px 16px;
+    background-color: #D13536;
+    border-radius: 20px;
+}
+.site:hover {
+    background-color: #a5282a;
+    text-decoration: none;
+    box-shadow: 3px 3px 3px grey;
+    transition: background, box-shadow 0.3s ease;
+}
+.tryk, .close {
+    background-color: #D13536;
+    color: white;
+    padding: 6.5px 16px;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background, box-shadow 0.3s ease;
+}
+.tryk:hover, .close:hover {
+    background-color: #a72829;
+    box-shadow: 3px 3px 3px grey;
+}
+.collage-img {
+    width: 100%;
+    max-width: 500px;
+    margin: 1rem auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    display: block;
+}
+#wire {
+    width: 500px;
+}
+button {
+    margin: 1rem;
+}
+
+.rød-img {
+    border-radius: 2rem;
 }

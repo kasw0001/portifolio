@@ -2,12 +2,16 @@ h1 {
     color: #D13536;
     font-family: yeseva;
     font-size: xx-large;
+    padding: 1.5rem;
+    text-align: center;
 }
 
 h2 {
     color: #D13536;
     font-family: inter i;
+    letter-spacing: 1.5px;
 }
+
 h3 {
     font-family: inter;
 }
