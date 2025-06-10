@@ -28,7 +28,7 @@ nav ul {
     padding: 0;
 }
 nav img {
-    height: 25px;
+    max-width: 25px;
 }
 nav li a {
     font-family: Inter;
