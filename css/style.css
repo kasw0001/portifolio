@@ -23,4 +23,48 @@ p {
 
 footer {
     color: #D13536;
+    font-family: inter i;
+}
+
+/* KNAPPER */
+
+.site {
+    display: inline-block;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    font-family: inter;
+    font-size: 13.3px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    display: inline-block; 
+    padding: 6px 16px;
+    background-color: #D13536;
+    border-radius: 20px;
+}
+.site:hover {
+    background-color: #a5282a;
+    text-decoration: none;
+    box-shadow: 3px 3px 3px grey;
+    transition: background, box-shadow 0.3s ease;
+}
+.tryk, .close {
+    display: inline-block;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    background-color: #D13536;
+    color: white;
+    padding: 6.5px 16px;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background, box-shadow 0.3s ease;
+}
+.tryk:hover, .close:hover {
+    background-color: #a72829;
+    box-shadow: 3px 3px 3px grey;
+}
+.close {
+    margin-top: 1rem;
 }

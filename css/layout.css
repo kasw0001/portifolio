@@ -1,11 +1,13 @@
 main {
     margin: 2rem;
+    padding: 1rem;
 }
 
 .grid_2-3 {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
+    padding: 1rem;
 }
 
 .foto {
@@ -14,6 +16,11 @@ main {
 
 .text {
     order: 1;
+}
+.collage {
+    height: auto;
+    max-width: 90%;
+    display: block;
 }
 
 @media (min-width: 1000px) {
@@ -51,14 +58,34 @@ main {
     }
 
     .ommig {
-    padding-left: 4rem;
-    padding-top: 4rem;
-    padding-right: 3rem;
+        padding-left: 4rem;
+        padding-top: 4rem;
+        padding-right: 3rem;
+        padding-bottom: 4rem;
     }
-
     .text {
-    padding-right: 5rem;
-    padding-top: 3rem;
+        padding-right: 5rem;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+    .ommig p, .text p {
+        text-align: justify;
+    }
+    
+    dialog p {
+        max-width: 20cm;
+        padding: 1rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        text-align: justify;
+    }
+    dialog h3 {
+        padding-left: 0.5rem;
+        padding-top: 1rem;
+    }
+    .collage {
+        max-width: 600px;
+        margin: 1rem auto;
     }
 }
 

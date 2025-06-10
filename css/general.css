@@ -1,19 +1,18 @@
 @font-face {
     font-family: Inter;
-    src: url(/fonts/Inter/Inter-VariableFont_opsz\,wght.ttf);
+    src: url(../fonts/Inter/Inter-VariableFont_opsz\,wght.ttf) format('truetype');
 }
 @font-face {
     font-family: yeseva;
-    src: url(/fonts/Yeseva_One/YesevaOne-Regular.ttf);
+    src: url(../fonts/Yeseva_One/YesevaOne-Regular.ttf) format('truetype');
 }
 @font-face {
     font-family: inter i;
-    src: url(/fonts/Inter/Inter-Italic-VariableFont_opsz\,wght.ttf);
+    src: url(../fonts/Inter/Inter-Italic-VariableFont_opsz\,wght.ttf) format('truetype');
 }
 body {
     background-color: #F6F2E6;
 }
-
 nav {
     display: flex;
     justify-content: space-between;
@@ -21,7 +20,6 @@ nav {
     padding: 1rem 2rem;
     border-bottom: 1px solid #D13536;
 }
-
 nav ul {
     display: flex;
     gap: 3rem;
@@ -29,28 +27,23 @@ nav ul {
     margin: 0;
     padding: 0;
 }
-
 nav img {
     height: 25px;
 }
-
 nav li a {
     font-family: Inter;
     color: #D13536;
     text-decoration: none;
 }
-
 li a:hover {
     text-decoration: underline;
 }
-
 img {
     object-fit: cover;
     display: block;
-    height: 100%;
     width: 100%;
+    height: auto;
 }
-
 footer {
     padding: 1rem;
     border-top: 1px solid #D13536;
@@ -61,25 +54,13 @@ footer {
     padding: 2rem;
     margin: 2rem auto;
     border-radius: 3rem;
-}
-
-.ommig {
-    /* padding-left: 4rem;
-    padding-top: 4rem;
-    padding-right: 3rem; */
-    text-align: justify;
-}
-.text {
-    /* padding-right: 5rem;
-    padding-top: 3rem; */
-    text-align: justify;
+    max-width: 75rem;
 }
 
 /* PROJEKTER */ 
 .projekt {
     padding-left: 1rem;
 }
-
 dialog {
     max-width: 800px;
     width: 90%;
@@ -94,47 +75,11 @@ dialog::backdrop {
     backdrop-filter: blur(3px);
 }
 dialog p {
-    max-width: 20cm;
-    padding: 1.5rem;
-    padding-left: 3rem;
     padding-right: 3rem;
-    text-align: justify;
+    max-width: 50rem;
 }
-.site {
-    font-family: inter;
-    font-size: 14px;
-    font-weight: 600;
-    color: white;
-    text-decoration: none;
-    display: inline-block; 
-    padding: 6px 16px;
-    background-color: #D13536;
-    border-radius: 20px;
-}
-.site:hover {
-    background-color: #a5282a;
-    text-decoration: none;
-    box-shadow: 3px 3px 3px grey;
-    transition: background, box-shadow 0.3s ease;
-}
-.tryk, .close {
-    background-color: #D13536;
-    color: white;
-    padding: 6.5px 16px;
-    border: none;
-    border-radius: 20px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: background, box-shadow 0.3s ease;
-}
-.tryk:hover, .close:hover {
-    background-color: #a72829;
-    box-shadow: 3px 3px 3px grey;
-}
-.collage-img {
-    width: 100%;
-    max-width: 500px;
-    margin: 1rem auto;
+
+.collage {
     border-radius: 12px;
     box-shadow: 0 4px 20px rgba(0,0,0,0.1);
     display: block;
@@ -142,10 +87,6 @@ dialog p {
 #wire {
     width: 500px;
 }
-button {
-    margin: 1rem;
-}
-
 .rød-img {
     border-radius: 2rem;
 }
